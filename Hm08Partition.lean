@@ -69,7 +69,7 @@
   `JointCubes` exactly. So the count is read off the data three independent ways.
 
   Left unstated, `joint-ground` would either vanish from the corpus or turn up as one small
-  floating box inside whichever layer caught the remainder. RFD 0121 records the measurement
+  floating box inside whichever layer caught the remainder. RFD66606-0121 records the measurement
   and its consequence for the layer route.
 
   `check_hm08_claims.py` asserts every number above against the installed ANNY data, so drift

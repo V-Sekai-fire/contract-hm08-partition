@@ -1,6 +1,6 @@
 """Write the hm08 topology and its vertex groups to an OpenUSD layer.
 
-WHY THIS EXISTS. RFD 0053 makes OpenUSD the internal format, and this is the entry point for
+WHY THIS EXISTS. RFD66606-0053 makes OpenUSD the internal format, and this is the entry point for
 the body. Downstream stages compose against the layer this writes rather than importing
 `anny` and re-deriving the topology, so nobody has to know which loader path ships in which
 release.

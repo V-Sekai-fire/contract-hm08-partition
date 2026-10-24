@@ -17,7 +17,7 @@ total, so truncation fails loudly rather than reading as a smaller tidy answer.
 
 Not checked here, on purpose: this script does not instantiate `anny.Anny`. That pulls in
 Warp and a CUDA context to settle a claim about a JSON file. The instantiation result is
-recorded instead, measured once for RFD 0121:
+recorded instead, measured once for RFD66606-0121:
 
     Anny(topology=TopologyConfig(base_mesh="makehuman", remove_unattached_vertices=False))
       -> 19158 vertices, matching the group data below
